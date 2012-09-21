@@ -25,7 +25,7 @@ if [ "${INSTALL_ONLY}" != "TRUE" ]
     cd download
 
     wget http://msgpack.org/releases/cpp/msgpack-${MSG_VER}.tar.gz
-    wget http://google-glog.googlecode.com/files/glog-${GLOG_VER}-1.tar.gz
+    wget http://google-glog.googlecode.com/files/glog-${GLOG_VER}.tar.gz
     wget http://ux-trie.googlecode.com/files/ux-${UX_VER}.tar.bz2
     wget http://mecab.googlecode.com/files/mecab-${MECAB_VER}.tar.gz
     wget http://mecab.googlecode.com/files/mecab-ipadic-${IPADIC_VER}.tar.gz
